@@ -1,7 +1,7 @@
 {
   "root": true,
   "project": {
-    "name": "derm-app"
+    "name": "derm-app-admin"
   },
   "api": {
     "projectId": "zegc2wrv",
@@ -12,13 +12,13 @@
     "@sanity/components",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "asset-source-unsplash",
+    "media"
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [

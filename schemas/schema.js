@@ -4,12 +4,23 @@ import createSchema from "part:@sanity/base/schema-creator";
 // Then import schema types from any plugins that might expose them
 import schemaTypes from "all:part:@sanity/base/schema-type";
 import youtube from "./youtube";
+import name from "./name";
 
 // We import object and document schemas
 import blockContent from "./blockContent";
 import category from "./category";
 import post from "./post";
 import author from "./author";
+import serviceType from "./serviceType";
+import service from "./service";
+import comment from "./comment";
+import form from "./form";
+import procedure from "./procedure";
+import consultation from "./consultation";
+import dateAvailable from "./dateAvailable";
+import timeAvailable from "./timeAvailable";
+import user from "./patient";
+import extra from "./extra";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -23,10 +34,21 @@ export default createSchema({
     post,
     author,
     category,
+    serviceType,
+    service,
+    comment,
+    form,
+    procedure,
+    consultation,
+    dateAvailable,
+    timeAvailable,
+    user,
+    extra,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
     blockContent,
     youtube,
+    name,
   ]),
 });
