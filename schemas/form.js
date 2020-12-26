@@ -2,7 +2,6 @@ export default {
   title: "Form",
   type: "document",
   name: "form",
-  readOnly: true,
   fields: [
     {
       title: "First Name",
@@ -70,6 +69,7 @@ export default {
       type: "string",
       readOnly: true,
       name: "sub",
+      hidden: true,
     },
   ],
 };

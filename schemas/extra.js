@@ -20,6 +20,11 @@ export default {
       name: "body",
     },
     {
+      type: "text",
+      title: "Description",
+      name: "description",
+    },
+    {
       type: "string",
       title: "Page Type",
       name: "pageType",
