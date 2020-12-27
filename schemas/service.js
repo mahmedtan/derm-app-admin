@@ -46,6 +46,11 @@ export default {
       type: "boolean",
     },
     {
+      name: "hideOnAccordian",
+      title: "Hide On Accordian",
+      type: "boolean",
+    },
+    {
       type: "number",
       name: "order",
       title: "Order On Slider",

@@ -1,5 +1,5 @@
 export default {
-  title: "Form",
+  title: "Appointments",
   type: "document",
   name: "form",
   fields: [
@@ -53,11 +53,18 @@ export default {
       name: "remarks",
     },
     {
+      type: "string",
+      title: "Appointment ID",
+      name: "appointmentId",
+      required: true,
+      readOnly: true,
+    },
+    {
       type: "boolean",
       name: "cancelled",
       title: "Cancelled",
     },
-    { title: "Submitted", name: "submitted", type: "datetime" },
+    { title: "Submitted", name: "submitted", type: "datetime", readOnly: true },
     {
       title: "Booked For",
       name: "bookedFor",

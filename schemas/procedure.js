@@ -29,7 +29,7 @@ export default {
       description: "a short description for the proceedure",
       name: "description",
       rows: 3,
-      validation: (Rule) => Rule.required().max(30),
+      validation: (Rule) => Rule.required().max(50),
     },
   ],
 };

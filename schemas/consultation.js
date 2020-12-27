@@ -28,8 +28,7 @@ export default {
       title: "Description",
       description: "a short description for the consultation",
       name: "description",
-      validation: (Rule) => Rule.required().max(30),
-
+      validation: (Rule) => Rule.required().max(50),
       rows: 3,
     },
   ],

@@ -17,6 +17,11 @@ export default {
       readOnly: true,
     },
     {
+      name: "available",
+      type: "boolean",
+      title: "Available",
+    },
+    {
       type: "array",
       name: "slots",
       title: "Slots",

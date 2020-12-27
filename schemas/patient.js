@@ -1,7 +1,7 @@
 export default {
   type: "document",
   name: "patient",
-  title: "Patient",
+  title: "Patients",
   readOnly: true,
   fields: [
     {

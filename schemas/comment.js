@@ -1,7 +1,8 @@
 export default {
   name: "comment",
   type: "document",
-  title: "Comment",
+  title: "Reviews",
+  readOnly: true,
   fields: [
     {
       name: "patientName",
