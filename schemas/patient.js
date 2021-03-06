@@ -2,7 +2,6 @@ export default {
   type: "document",
   name: "patient",
   title: "Patients",
-  readOnly: true,
   fields: [
     {
       type: "string",
