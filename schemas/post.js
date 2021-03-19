@@ -40,15 +40,16 @@ export default {
     },
 
     {
-      name: "publishedAt",
-      title: "Published at",
-      type: "datetime",
-    },
-    {
       name: "body",
       title: "Body",
       type: "blockContent",
       validation: (Rule) => Rule.required(),
+    },
+    {
+      name: "description",
+      title: "Description",
+      type: "text",
+      validation: (Rule) => Rule.required().max(800),
     },
   ],
 

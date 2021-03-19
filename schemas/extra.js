@@ -15,6 +15,17 @@ export default {
       name: "avatar",
     },
     {
+      type: "mux.video",
+      name: "posterVideo1",
+      title: "Poster Video",
+    },
+
+    {
+      type: "mux.video",
+      name: "bannerVideo",
+      title: "Banner Video",
+    },
+    {
       type: "blockContent",
       title: "Body",
       name: "body",
@@ -28,7 +39,7 @@ export default {
       type: "string",
       title: "Page Type",
       name: "pageType",
-      // hidden: true,
+      hidden: true,
     },
     {
       type: "array",

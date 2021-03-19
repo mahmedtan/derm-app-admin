@@ -18,5 +18,10 @@ export default {
       title: "Show",
       type: "boolean",
     },
+    {
+      name: "rating",
+      title: "Rating",
+      type: "number",
+    },
   ],
 };

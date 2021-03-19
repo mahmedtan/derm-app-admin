@@ -14,7 +14,8 @@
     "@sanity/default-login",
     "@sanity/desk-tool",
     "asset-source-unsplash",
-    "media"
+    "media",
+    "mux-input"
   ],
   "env": {
     "development": {
