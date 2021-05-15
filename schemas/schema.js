@@ -8,6 +8,8 @@ import name from "./name";
 
 // We import object and document schemas
 import blockContent from "./blockContent";
+import brand from "./brand";
+import product from "./product";
 import post from "./post";
 import author from "./author";
 import serviceType from "./serviceType";
@@ -48,5 +50,7 @@ export default createSchema({
     blockContent,
     youtube,
     name,
+    brand,
+    product,
   ]),
 });

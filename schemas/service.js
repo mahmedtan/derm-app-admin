@@ -62,6 +62,23 @@ export default {
       title: "Order On Accordian",
       validation: (Rule) => Rule.required(),
     },
+    {
+      type: "array",
+      title: "Slider Images",
+      name: "sliderImages",
+      of: [{ type: "image" }],
+    },
+    {
+      type: "boolean",
+      title: "Show Image Slider",
+      name: "showSlider",
+    },
+    {
+      type: "array",
+      title: "Brands",
+      name: "brands",
+      of: [{ type: "brand" }],
+    },
   ],
   preview: {
     select: {

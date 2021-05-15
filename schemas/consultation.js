@@ -17,8 +17,15 @@ export default {
       validation: (Result) => Result.required(),
     },
     {
-      name: "price",
-      title: "Price",
+      name: "startingPrice",
+      title: "Starting Price",
+      type: "number",
+      description: "in USD",
+      validation: (Result) => Result.required(),
+    },
+    {
+      name: "endingPrice",
+      title: "Ending Price",
       type: "number",
       description: "in USD",
       validation: (Result) => Result.required(),

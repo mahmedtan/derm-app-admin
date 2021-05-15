@@ -47,5 +47,16 @@ export default {
       name: "posters",
       of: [{ type: "image" }],
     },
+    {
+      type: "array",
+      title: "Slider Images",
+      name: "sliderImages",
+      of: [{ type: "image" }],
+    },
+    {
+      type: "boolean",
+      title: "Show Image Slider",
+      name: "showSlider",
+    },
   ],
 };
