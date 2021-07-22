@@ -10,6 +10,12 @@ export default {
       // readOnly: true,
     },
     {
+      type: "string",
+      title: "Title Secondary",
+      name: "titleSecondary",
+      // readOnly: true,
+    },
+    {
       type: "image",
       title: "Avatar",
       name: "avatar",
@@ -31,6 +37,11 @@ export default {
       name: "body",
     },
     {
+      type: "blockContent",
+      title: "Body Secondary",
+      name: "bodySecondary",
+    },
+    {
       type: "text",
       title: "Description",
       name: "description",
@@ -40,6 +51,12 @@ export default {
       title: "Page Type",
       name: "pageType",
       hidden: true,
+    },
+    {
+      name: "metaTags",
+      type: "array",
+      title: "Meta Tags",
+      of: [{ type: "metaTag" }],
     },
     {
       type: "array",

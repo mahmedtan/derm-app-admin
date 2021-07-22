@@ -20,6 +20,12 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
+      name: "metaTags",
+      type: "array",
+      title: "Meta Tags",
+      of: [{ type: "metaTag" }],
+    },
+    {
       name: "serviceType",
       type: "reference",
       to: { type: "serviceType", title: "Service Type" },

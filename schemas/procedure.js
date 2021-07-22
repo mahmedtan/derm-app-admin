@@ -21,14 +21,14 @@ export default {
       title: "Starting Price",
       type: "number",
       description: "in USD",
-      validation: (Result) => Result.required(),
+      validation: (Result) => Result.required().min(0),
     },
     {
       name: "endingPrice",
       title: "Ending Price",
       type: "number",
       description: "in USD",
-      validation: (Result) => Result.required(),
+      validation: (Result) => Result.min(0),
     },
     {
       type: "text",

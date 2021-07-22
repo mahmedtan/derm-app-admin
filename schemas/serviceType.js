@@ -27,9 +27,15 @@ export default {
       validation: (Rule) => Rule.required(),
     },
     {
-      type: "string",
+      type: "color",
       name: "backgroundColor",
       title: "Background Color",
+    },
+    {
+      name: "metaTags",
+      type: "array",
+      title: "Meta Tags",
+      of: [{ type: "metaTag" }],
     },
     {
       name: "image",

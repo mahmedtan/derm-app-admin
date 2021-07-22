@@ -22,6 +22,7 @@ import consultation from "./consultation";
 import timeAvailable from "./timeAvailable";
 import user from "./patient";
 import extra from "./extra";
+import metaTag from "./metaTag";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -40,7 +41,6 @@ export default createSchema({
     form,
     procedure,
     consultation,
-    // dateAvailable,
     timeAvailable,
     user,
     extra,
@@ -52,5 +52,6 @@ export default createSchema({
     name,
     brand,
     product,
+    metaTag,
   ]),
 });

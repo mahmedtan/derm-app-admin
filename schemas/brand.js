@@ -10,6 +10,11 @@ export default {
       validation: (Rule) => Rule.required().error("Brand Name is Required"),
     },
     {
+      title: "Brand Link",
+      type: "string",
+      name: "brandLink",
+    },
+    {
       type: "array",
       title: "Products",
       name: "products",

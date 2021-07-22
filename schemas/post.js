@@ -38,6 +38,12 @@ export default {
         hotspot: true,
       },
     },
+    {
+      name: "metaTags",
+      type: "array",
+      title: "Meta Tags",
+      of: [{ type: "metaTag" }],
+    },
 
     {
       name: "body",

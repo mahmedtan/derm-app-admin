@@ -21,6 +21,14 @@ export default {
       type: "boolean",
       title: "Available",
     },
+
+    {
+      type: "date",
+      title: "Temporary Unavailability",
+      description:
+        "Block Appointments for a particular day till a selected date.",
+      name: "blockAppointments",
+    },
     {
       type: "array",
       name: "slots",
